@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Demo_Podspec'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/madordie/Demo_Podspec'
   s.author       = { 'Keith' => 'keith_127@126.com' }

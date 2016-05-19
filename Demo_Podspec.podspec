@@ -12,5 +12,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
 # Pod Dependencies
-
+  s.subspec 'LeanCloud' do |lcs|
+    lcs.dependency 'AVOSCloud', '>= 3.1.12'
+    lcs.dependency 'AVOSCloudIM', '>= 3.1.12'
+  end
 end

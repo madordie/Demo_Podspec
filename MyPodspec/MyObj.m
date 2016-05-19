@@ -7,10 +7,13 @@
 //
 
 #import "MyObj.h"
+#import <UIButton+WebCache.h>
 
 @implementation MyObj
 
 - (NSString *)log {
+    UIButton *button = [UIButton new];
+    [button sd_setImageWithURL:nil forState:nil];
     return @"哇嘎嘎嘎";
 }
 

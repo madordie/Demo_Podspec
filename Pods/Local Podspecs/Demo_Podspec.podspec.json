@@ -1,0 +1,33 @@
+{
+  "name": "Demo_Podspec",
+  "version": "0.0.3",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://github.com/madordie/Demo_Podspec",
+  "authors": {
+    "Keith": "keith_127@126.com"
+  },
+  "summary": "balabalabalala",
+  "frameworks": "UIKit",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/madordie/Demo_Podspec.git",
+    "tag": "0.0.3"
+  },
+  "source_files": "MyPodspec/*.{h,m}",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "SDWebImage",
+      "dependencies": {
+        "SDWebImage": [
+          ">= 3.7.6"
+        ]
+      }
+    }
+  ]
+}
